@@ -88,6 +88,40 @@
     display: block;
     width: 100%; }
 
+.dropdown {
+  position: relative;
+  display: inline-block; }
+  .dropdown-toggle:after {
+    content: '';
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: 3px;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-bottom: 0;
+    border-left: 4px solid transparent; }
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 2px;
+    background-color: #fff;
+    min-width: 100%;
+    padding: 10px 0; }
+  .dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 7px 10px;
+    color: #343a40;
+    background-color: transparent;
+    border: 0;
+    text-decoration: none; }
+    .dropdown-item:hover {
+      background-color: rgba(0, 0, 0, 0.05); }
+
 .text-center {
   text-align: center; }
 
