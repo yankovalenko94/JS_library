@@ -181,6 +181,33 @@
   .modal-footer {
     padding: 15px; }
 
+.tab {
+  max-width: 700px; }
+  .tab-panel {
+    display: flex;
+    width: 100%;
+    min-height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px 4px 0 0; }
+  .tab-item {
+    font-size: 18px;
+    line-height: 27px;
+    padding: 10px 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    cursor: pointer; }
+    .tab-item:last-child {
+      border-right: none; }
+    .tab-item--active {
+      background-color: rgba(0, 0, 0, 0.1); }
+  .tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: none;
+    border-radius: 0 0 4px 4px; }
+    .tab-content--active {
+      display: block; }
+
 .text-center {
   text-align: center; }
 
